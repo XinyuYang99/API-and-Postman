@@ -9,10 +9,10 @@ import requests
 from datetime import datetime
 
 class OpenWeather:
-    """ documentation = https://openweathermap.org/current """
-    endpoint_template = 'http://api.openweathermap.org/data/2.5/' + \
-                        'weather?q={city name}&appid={API key}&mode={mode}&units={units}'
-    api_key = '6c1dc5467d0314cc39820dbbaeb5bf66'
+    """ documentation =  """
+    endpoint_template = '/' + \
+                        ''
+    api_key = ''
 
     def __init__(self):
         self.endpoint = OpenWeather.endpoint_template.replace('{API key}', OpenWeather.api_key)
